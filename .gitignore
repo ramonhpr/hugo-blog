@@ -1,0 +1,15 @@
+# Ignorar diretórios gerados
+public/
+resources/
+
+# Ignorar arquivos temporários
+*.log
+*.bak
+
+# Ignorar conteúdo do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar backups e configurações locais
+config.toml.bak
+hugo_stats.json
