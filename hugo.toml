@@ -52,6 +52,12 @@ style = "github-dark"
   weight = 1
   url = "https://github.com/ramonhpr/"
 
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/ramonhpr/"
+
 # Menu links
 [[menu.main]]
   name = "Blog"
