@@ -58,6 +58,12 @@ style = "github-dark"
   weight = 1
   url = "https://www.linkedin.com/in/ramonhpr/"
 
+[[params.social]]
+  name = "Hashnode"
+  icon = "fa-brands fa-hashnode fa-2x"
+  weight = 1
+  url = "https://ramonhpr.hashnode.dev/"
+
 [languages]
   [languages.en]
     weight = 0
