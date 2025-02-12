@@ -10,7 +10,6 @@ pagerSize = 20
 
 [services]
 [services.disqus]
-shortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
@@ -23,6 +22,7 @@ style = "github-dark"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
+  math = true
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
@@ -58,20 +58,19 @@ style = "github-dark"
   weight = 1
   url = "https://www.linkedin.com/in/ramonhpr/"
 
-# Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
-
 [languages]
   [languages.en]
-    disabled = false
-    languageCode = ''
-    languageDirection = ''
-    languageName = ''
     weight = 0
+    languageName = ':uk:'
+  [[languages.en.menu.main]]
+    name = "About"
+    weight = 1
+    url = "about/"
+  [languages.pt-br]
+    weight = 1
+    languageName = ':brazil:'
+  [[languages.pt-br.menu.main]]
+    name = "Sobre"
+    weight = 1
+    url = "about/"
+  
